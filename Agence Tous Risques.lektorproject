@@ -1,0 +1,5 @@
+[project]
+name = Agence Tous Risques
+
+[servers.ghpages]
+target = ghpages+https://enguerran/Agence-Tous-Risques

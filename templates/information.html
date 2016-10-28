@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2>{{ this.title }}</h2>
+  <hr>
+  {{ this.body }}
+  <ul>
+  {% for information in site.query('/informations').all() %}
+    <li><a href="{{information.path}}">{{ information.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock %}
