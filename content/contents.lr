@@ -4,3 +4,5 @@ body:
 
 This is a basic demo website that shows how to use Lektor for a basic
 website with some pages.
+
+This update must trigger travis to update the website.
