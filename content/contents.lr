@@ -2,7 +2,6 @@ title: Bienvenue à l'Agence Tous Risques!
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages.
+C'est un site de démo bateau qui démontre comment utiliser lektor pour écrire du contenu dans un site web.
 
 This update must trigger travis to update the website.
